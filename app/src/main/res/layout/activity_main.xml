@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            style="@style/BorderLineStyle"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/SubheadingTextStyle"
+            android:text="@string/sub_heading" />
+
+        <View
+            style="@style/BorderLineStyle"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questionTitleTextStyle"
+                android:text="@string/question3_title" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/question_three" />
+
+            <EditText
+                android:id="@+id/capital_city_edit_text"
+                style="@style/EditableTextStyle"
+                android:hint="@string/capitalcity_hint"
+                android:onClick="onClickSetQ1" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questionTitleTextStyle"
+                android:text="@string/question1_title" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/question_one" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:textSize="16sp">
+
+                <RadioButton
+                    android:id="@+id/sata_radio_button"
+                    style="@style/RadioButtonTextStyle"
+                    android:onClick="onClickSetQ2"
+                    android:text="@string/sata_radio" />
+
+                <RadioButton
+                    android:id="@+id/lungu_radio_button"
+                    style="@style/RadioButtonTextStyle"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="onClickSetQ2"
+                    android:text="@string/lungu_radio" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questionTitleTextStyle"
+                android:text="@string/question2_title" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/question_two" />
+
+            <CheckBox
+                android:id="@+id/livinstone_checkbox"
+                style="@style/CheckBoxTextStyle"
+                android:onClick="onClickSetQ3"
+                android:text="@string/livingstone_check" />
+
+            <CheckBox
+                android:id="@+id/pretoria_checkbox"
+                style="@style/CheckBoxTextStyle"
+                android:onClick="onClickSetQ3"
+                android:text="@string/pretoria_check" />
+
+            <CheckBox
+                android:id="@+id/ndola_checkbox"
+                style="@style/CheckBoxTextStyle"
+                android:onClick="onClickSetQ3"
+                android:text="@string/ndola_check" />
+
+            <CheckBox
+                android:id="@+id/harare_checkbox"
+                style="@style/CheckBoxTextStyle"
+                android:layout_marginBottom="8dp"
+                android:onClick="onClickSetQ3"
+                android:text="@string/harare_check" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questionTitleTextStyle"
+                android:text="@string/question4_title" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/question_four" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:textSize="16sp">
+
+                <RadioButton
+                    android:id="@+id/nine_radio_button"
+                    style="@style/RadioButtonTextStyle"
+                    android:onClick="onClickSetQ4"
+                    android:text="@string/nine_radio" />
+
+                <RadioButton
+                    android:id="@+id/ten_radio_button"
+                    style="@style/RadioButtonTextStyle"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="onClickSetQ4"
+                    android:text="@string/ten_radio" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questionTitleTextStyle"
+                android:text="@string/question5_title" />
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/question_five" />
+
+            <CheckBox
+                android:id="@+id/zimbabwe_checkbox"
+                style="@style/CheckBoxTextStyle"
+                android:onClick="onClickSetQ5"
+                android:text="@string/zimbabwe_check" />
+
+            <CheckBox
+                android:id="@+id/southafrica_checkbox"
+                style="@style/CheckBoxTextStyle"
+                android:onClick="onClickSetQ5"
+                android:text="@string/southafrica_check" />
+
+            <CheckBox
+                android:id="@+id/malawi_checkbox"
+                style="@style/CheckBoxTextStyle"
+                android:onClick="onClickSetQ5"
+                android:text="@string/malawi_check" />
+
+            <CheckBox
+                android:id="@+id/swaziland_checkbox"
+                style="@style/CheckBoxTextStyle"
+                android:onClick="onClickSetQ5"
+                android:text="@string/swaziland_check" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="onClickSetSubmit"
+                android:text="submit" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="onClickReset"
+                android:text="reset" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+
+</ScrollView>

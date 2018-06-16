@@ -1,0 +1,126 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title of the application -->
+    <string name="app_name">Zambia Quiz</string>
+
+    <!-- Subheading for the Quiz App -->
+    <string name="sub_heading">ZAMBIA</string>
+
+
+    <!-- Header for the question five title. [CHAR LIMIT=25]-->
+    <string name="question5_title">QUESTION FIVE</string>
+
+    <!-- Header for the question five. [CHAR LIMIT=65]-->
+    <string name="question_five">List two countries neighbouring Zambia.</string>
+
+    <!-- Header for zimbabwe check box. [CHAR LIMIT=25]-->
+    <string name="zimbabwe_check">Zimbabwe</string>
+
+    <!-- Header for southafrica check box. [CHAR LIMIT=25]-->
+    <string name="southafrica_check">South Africa</string>
+
+    <!-- Header for malawi check box. [CHAR LIMIT=25]-->
+    <string name="malawi_check">Malawi</string>
+
+    <!-- Header for swaziland check box. [CHAR LIMIT=25]-->
+    <string name="swaziland_check">Swaziland</string>
+
+
+    <!-- Header for the question one title. [CHAR LIMIT=25]-->
+    <string name="question1_title">QUESTION TWO</string>
+
+    <!-- Header for the question one. [CHAR LIMIT=65]-->
+    <string name="question_one">Who is the current president of Zambia?</string>
+
+    <!-- Header for sata radio button. [CHAR LIMIT=25]-->
+    <string name="sata_radio">Michael Sata</string>
+
+    <!-- Header for lungu radio button. [CHAR LIMIT=25]-->
+    <string name="lungu_radio">Edgar Lungu</string>
+    <!-- Header for sata radio button. [CHAR LIMIT=25]-->
+
+
+    <!-- Header for the question two title. [CHAR LIMIT=25]-->
+    <string name="question2_title">QUESTION THREE</string>
+
+    <!-- Header for the question one. [CHAR LIMIT=65]-->
+    <string name="question_two">List two towns found in Zambia.</string>
+
+    <!-- Header for livingstone check box. [CHAR LIMIT=25]-->
+    <string name="livingstone_check">Livingstone</string>
+
+    <!-- Header for pretoria check box. [CHAR LIMIT=25]-->
+    <string name="pretoria_check">Pretoria</string>
+
+    <!-- Header for ndola check box. [CHAR LIMIT=25]-->
+    <string name="ndola_check">Ndola</string>
+
+    <!-- Header for harare check box. [CHAR LIMIT=25]-->
+    <string name="harare_check">Harare</string>
+
+
+    <!-- Header for the question two title. [CHAR LIMIT=25]-->
+    <string name="question3_title">QUESTION ONE</string>
+
+    <!-- Header for the question one. [CHAR LIMIT=65]-->
+    <string name="question_three">Name the capital city of Zambia.</string>
+
+    <!-- Hint text display for the capital city field. [CHAR LIMIT = ] -->
+    <string name="capitalcity_hint">Capital city</string>
+
+
+    <!-- Header for the question four title. [CHAR LIMIT=25]-->
+    <string name="question4_title">QUESTION FOUR</string>
+
+    <!-- Header for the question four. [CHAR LIMIT=65]-->
+    <string name="question_four">How many provinces are found in Zambia?</string>
+
+    <!-- Header for nine radio button. [CHAR LIMIT=10]-->
+    <string name="nine_radio">Nine</string>
+
+    <!-- Header for ten radio button. [CHAR LIMIT=10]-->
+    <string name="ten_radio">Ten</string>
+
+
+    <!--
+      Title for score summary.[CHAR LIMIT=25]
+    -->
+    <string name="score_summary_title">SCORE SUMMARY <xliff:g example="Amy"></xliff:g></string>
+
+    <!--
+      Score for question one in the score summary. It will be shown in the format of
+      "Question ONE: 2 marks", where 2 is the score.[CHAR LIMIT=NONE]
+    -->
+    <string name="score_summary_question_one">Question ONE: <xliff:g example="2" id="score1">%d</xliff:g> marks</string>
+
+    <!--
+      Score for question two in the score summary. It will be shown in the format of
+      "Question TWO: 2 marks", where 2 is the score.[CHAR LIMIT=NONE]
+    -->
+    <string name="score_summary_question_two">Question TWO: <xliff:g example="2" id="score2">%d</xliff:g> marks</string>
+
+    <!--
+      Score for question three in the score summary. It will be shown in the format of
+      "Question THREE: 2 marks", where 2 is the score.[CHAR LIMIT=NONE]
+    -->
+    <string name="score_summary_question_three">Question THREE: <xliff:g example="2" id="score3">%d</xliff:g> marks</string>
+
+
+    <!--
+          Score for question four in the score summary. It will be shown in the format of
+          "Question FOUR: 2 marks", where 2 is the score.[CHAR LIMIT=NONE]
+        -->
+    <string name="score_summary_question_four">Question FOUR: <xliff:g example="2" id="score4">%d</xliff:g> marks</string>
+
+    <!--
+          Score for question five in the score summary. It will be shown in the format of
+          "Question FIVE: 2 marks", where 2 is the score.[CHAR LIMIT=NONE]
+        -->
+    <string name="score_summary_question_five">Question FIVE: <xliff:g example="2" id="score5">%d</xliff:g> marks</string>
+
+    <!--
+      Total score in the score summary.It will be shown in the format "TOTAL MAARKS: 2",where 2 is the total marks. [CHAR LIMIT=25]
+    -->
+    <string name="total_score_header">TOTAL MARKS:  <xliff:g example="2" id="calculateTotalScore()">%d</xliff:g> marks</string>
+
+</resources>

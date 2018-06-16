@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#607D8B</item>
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorAccent">#607D8B</item>
+        <item name="colorButtonNormal">#607D8B</item>
+    </style>
+
+    <!-- Style for the View -->
+    <style name="BorderLineStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1dp</item>
+
+    </style>
+
+
+    <!-- Style for subheading text -->
+    <style name="SubheadingTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <!-- Style for questions title header text -->
+    <style name="questionTitleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <!-- Style for questions header text -->
+    <style name="questionTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+
+    <!-- Style for checbbox button header text -->
+    <style name="CheckBoxTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">130dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <!-- Style for radio button header text -->
+    <style name="RadioButtonTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <!-- Style for editable text header -->
+    <style name="EditableTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+
+    <!-- Style for buttons header-->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+
+</resources>
